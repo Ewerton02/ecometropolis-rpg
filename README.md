@@ -1,74 +1,77 @@
-# 🌆 EcoMetrópole RPG
+# 🌆 EcoMetropolis RPG
 
-Um jogo de RPG textual em Java com foco em **educação ambiental**, onde o jogador vive em uma grande metrópole e precisa tomar decisões que impactam sua **sobrevivência** e o **meio ambiente**.
-
----
-
-## 🎯 Objetivo
-
-Sobreviver por 5 dias enfrentando desafios urbanos como poluição, consumo irresponsável e eventos climáticos, **tomando decisões sustentáveis** para manter sua energia, reduzir a poluição e aumentar sua conscientização ambiental.
+A text-based RPG game built in Java focused on **environmental education**, where the player lives in a large metropolis and must make decisions that impact both their **survival** and the **environment**.
 
 ---
 
-## 🧠 Contexto Acadêmico
+## 🎯 Objective
 
-Este projeto foi desenvolvido como atividade da disciplina de **Linguagem de Programação Orientada a Objetos – LPOO** com o objetivo de aplicar conceitos de:
-
-- Programação orientada a objetos
-- Encapsulamento
-- Criação de classes e métodos
-- Interação textual com o usuário
+Survive for 5 days facing urban challenges such as pollution, irresponsible consumption, and climate events — **making sustainable choices** to maintain your energy, reduce pollution, and increase your environmental awareness.
 
 ---
 
-## 📦 Estrutura do Projeto
+## 🧠 Academic Context
 
-EcoMetropoleRPG/ ├── Main.java # Ponto de entrada do jogo ├── Jogo.java # Controla o fluxo principal e os dias ├── Personagem.java # Define os atributos do jogador ├── Evento.java # Define eventos e consequências └── README.md # Este arquivo
+This project was developed as an assignment for the **Object-Oriented Programming Language – OOPL** course, with the goal of applying concepts such as:
 
-🕹️ Gameplay
-Durante 5 dias, o jogador enfrentará diferentes eventos que envolvem:
+- Object-oriented programming
+- Encapsulation
+- Class and method creation
+- Text-based user interaction
 
-Reciclagem
+---
 
-Transporte sustentável
+## 📦 Project Structure
 
-Alagamentos
+```
+EcoMetropolisRPG/
+├── Main.java         # Game entry point
+├── Jogo.java         # Controls main flow and days
+├── Personagem.java   # Defines player attributes
+├── Evento.java       # Defines events and consequences
+└── README.md         # This file
+```
 
-Energia e consumo
+## 🕹️ Gameplay
 
-Voluntariado ecológico
+Over 5 days, the player will face different events involving:
 
-Queimadas urbanas e muito mais...
+- Recycling
+- Sustainable transportation
+- Flooding
+- Energy and consumption
+- Ecological volunteering
+- Urban wildfires and much more...
 
-Cada decisão afeta três atributos:
+Each decision affects three attributes:
 
-⚡ Energia
+- ⚡ Energy
+- 🌱 Environmental Awareness
+- 🏭 Pollution Level
 
-🌱 Conscientização Ambiental
+---
 
-🏭 Nível de Poluição
+## 🏆 Win / Lose Conditions
 
+✅ **Win** if Environmental Awareness ≥ 80 by the end of Day 5 and you're still alive.
 
-🏆 Condições de Vitória / Derrota
-✅ Vence se conscientização ≥ 80 até o final do 5º dia e ainda estiver vivo.
+❌ **Lose** if:
+- Energy reaches 0
+- Pollution reaches 100
 
-❌ Perde se:
+---
 
-Energia chegar a 0
+## 📘 Learning Outcomes
 
-Poluição chegar a 100
+This game helps students to:
 
-📘 Aprendizados
-Este jogo ajuda o aluno a:
+- Practice object-oriented logic
+- Work with decision structures and lists
+- Understand the importance of sustainability
+- Build simple terminal-based text games
 
-Praticar a lógica orientada a objetos
+---
 
-Trabalhar com estrutura de decisões e listas
+## 🛡️ License
 
-Compreender a importância da sustentabilidade
-
-Criar jogos simples baseados em texto no terminal
-
-
-🛡️ Licença
-Este projeto é de uso educacional e está sob a licença MIT.
+This project is for educational use and is licensed under the MIT License.
